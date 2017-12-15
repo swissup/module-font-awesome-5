@@ -14,7 +14,7 @@
 cd <magento_root>
 
 # 1. Get source code
-composer require swissup/font-awesome
+composer require swissup/font-awesome:dev-fontawesome5
 
 # 2. Enable module and run upgrades
 bin/magento module:enable Swissup_Core Swissup_FontAwesome
@@ -32,16 +32,16 @@ To add icons to the custom content, use the following code:
 1. See the list of available examples at fontawesome's [official site][fontawesome_examples]
 2. Search for icon you need at [official site][fontawesome_icons]
 
-[fontawesome_homepage]: http://fortawesome.github.io/Font-Awesome/
-[fontawesome_examples]: http://fortawesome.github.io/Font-Awesome/examples/
-[fontawesome_icons]: http://fortawesome.github.io/Font-Awesome/icons/
+[fontawesome_homepage]: https://fontawesome.com/
+[fontawesome_examples]: https://fontawesome.com/how-to-use/svg-with-js
+[fontawesome_icons]: https://fontawesome.com/icons
 
 ### How to replace standard Magento icons
 
 Add the following variables into your theme less file:
 
 ```less
-@icons__font-name: 'FontAwesome';
+@icons__font-name: 'Font Awesome 5 Free';
 
 @icon-font__size: 14px;
 @icon-font__line-height: inherit;
