@@ -6,7 +6,6 @@
             <general>
                 <enabled>1</enabled>
                 <use_cdn>1</use_cdn>
-                <cdn_embed_code></cdn_embed_code>
             </general>
         </swissup_fontawesome>
     </default>
