@@ -17,12 +17,12 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     /**
      * @var string
      */
-    const ASSET_REMOTE_URL = 'https://use.fontawesome.com/releases/v5.0.1/css/all.css';
+    const ASSET_REMOTE_URL = 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
 
     /**
      * @var string
      */
-    const ASSET_LOCAL_URL = 'Swissup_FontAwesome::fontawesome-free-5.0.1/web-fonts-with-css/css/fontawesome-all.min.css';
+    const ASSET_LOCAL_URL = 'Swissup_FontAwesome::fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css';
 
     /**
      * Retrieve isFontAwesomeEnabled flag
