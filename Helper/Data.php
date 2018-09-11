@@ -1,18 +1,18 @@
 <?php
 
-namespace Swissup\FontAwesome\Helper;
+namespace Swissup\FontAwesome5\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
      * @var string
      */
-    const CONFIG_PATH_ENABLED = 'swissup_fontawesome/general/enabled';
+    const CONFIG_PATH_ENABLED = 'swissup_fontawesome5/general/enabled';
 
     /**
      * @var string
      */
-    const CONFIG_PATH_USE_CDN = 'swissup_fontawesome/general/use_cdn';
+    const CONFIG_PATH_USE_CDN = 'swissup_fontawesome5/general/use_cdn';
 
     /**
      * @var string
@@ -22,7 +22,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     /**
      * @var string
      */
-    const ASSET_LOCAL_URL = 'Swissup_FontAwesome::fontawesome-free-5.3.1-web/css/all.min.css';
+    const ASSET_LOCAL_URL = 'Swissup_FontAwesome5::fontawesome-free-5.3.1-web/css/all.min.css';
 
     /**
      * Retrieve isFontAwesomeEnabled flag
@@ -60,7 +60,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
         $asset = new \Magento\Framework\DataObject();
         $asset->addData([
             'properties' => [],
-            'name' => 'swissup_fontawesome'
+            'name' => 'swissup_fontawesome5'
         ]);
         return $asset;
     }

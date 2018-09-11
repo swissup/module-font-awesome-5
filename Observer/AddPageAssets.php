@@ -1,6 +1,6 @@
 <?php
 
-namespace Swissup\FontAwesome\Observer;
+namespace Swissup\FontAwesome5\Observer;
 
 class AddPageAssets implements \Magento\Framework\Event\ObserverInterface
 {
@@ -10,7 +10,7 @@ class AddPageAssets implements \Magento\Framework\Event\ObserverInterface
     protected $pageConfig;
 
     /**
-     * @var \Swissup\FontAwesome\Helper\Data
+     * @var \Swissup\FontAwesome5\Helper\Data
      */
     protected $helper;
 
@@ -18,7 +18,7 @@ class AddPageAssets implements \Magento\Framework\Event\ObserverInterface
      */
     public function __construct(
         \Magento\Framework\View\Page\Config $pageConfig,
-        \Swissup\FontAwesome\Helper\Data $helper
+        \Swissup\FontAwesome5\Helper\Data $helper
     ) {
         $this->pageConfig = $pageConfig;
         $this->helper = $helper;

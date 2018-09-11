@@ -8,7 +8,7 @@
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
                             <resource id="Swissup_Core::swissup_config">
-                                <resource id="Swissup_FontAwesome::config_fontawesome" title="Font Awesome" sortOrder="657"/>
+                                <resource id="Swissup_FontAwesome5::config_fontawesome" title="Font Awesome 5" sortOrder="657"/>
                             </resource>
                         </resource>
                     </resource>
