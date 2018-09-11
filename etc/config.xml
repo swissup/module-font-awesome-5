@@ -5,6 +5,7 @@
         <swissup_fontawesome5>
             <general>
                 <enabled>0</enabled>
+                <use_pro>0</use_pro>
                 <use_cdn>1</use_cdn>
             </general>
         </swissup_fontawesome5>
