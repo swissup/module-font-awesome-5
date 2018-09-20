@@ -10,12 +10,19 @@
 
 ### Installation
 
-```bash
-cd <magento_root>
-composer require swissup/font-awesome-5
-bin/magento module:enable Swissup_Core Swissup_FontAwesome5
-bin/magento setup:upgrade
-```
+ 1. Get the sources
+
+    ```bash
+    cd <magento_root>
+    composer require swissup/font-awesome-5
+    bin/magento module:enable Swissup_Core Swissup_FontAwesome5
+    bin/magento setup:upgrade
+    ```
+
+ 2. Enable it for the stores you need at _Stores > Configuration > Swissup > FontAwesome 5_.
+
+    > If you are a happy FontAwesome Pro version user, you can enable CDN Pro
+    > feature as well.
 
 ### Usage
 
