@@ -22,22 +22,22 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     /**
      * @var string
      */
-    const ASSET_REMOTE_URL = 'https://use.fontawesome.com/releases/v5.3.1/css/all.css';
+    const ASSET_REMOTE_URL = 'https://use.fontawesome.com/releases/v5.15.4/css/all.css';
 
     /**
      * @var string
      */
-    const ASSET_LOCAL_URL = 'Swissup_FontAwesome5::fontawesome-free-5.3.1-web/css/all.min.css';
+    const ASSET_LOCAL_URL = 'Swissup_FontAwesome5::fontawesome-free-5.15.4-web/css/all.min.css';
 
     /**
      * @var string
      */
-    const ASSET_PRO_REMOTE_URL = 'https://pro.fontawesome.com/releases/v5.3.1/css/all.css';
+    const ASSET_PRO_REMOTE_URL = 'https://pro.fontawesome.com/releases/v5.15.4/css/all.css';
 
     /**
      * @var string
      */
-    const ASSET_PRO_LOCAL_URL = 'Swissup_FontAwesome5::fontawesome-pro-5.3.1-web/css/all.min.css';
+    const ASSET_PRO_LOCAL_URL = 'Swissup_FontAwesome5::fontawesome-pro-5.15.4-web/css/all.min.css';
 
     /**
      * Retrieve isFontAwesomeEnabled flag
